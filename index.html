@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Calculator
+    </title>
+    <link rel="stylesheet" href="./calc.css" type="text/css">
+    <script src="./calc.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc">
+
+            <h2>Calculator</h2>
+            <div class="calcinner">
+                <input type="number" id="first">
+                <input type="number" id="second">
+            </div>
+            <p id="output"></p>
+            <div class="buttondiv">
+                <button onclick="calc('add')">+</button>
+                <button onclick="calc('sub')">-</button>
+                <button onclick="calc('multi')">*</button>
+                <button onclick="calc('divide')">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
